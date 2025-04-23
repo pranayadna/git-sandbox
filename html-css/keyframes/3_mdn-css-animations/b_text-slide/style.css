@@ -1,0 +1,37 @@
+.slide-in {
+  animation-duration: 3s;
+  animation-name: slide-in;
+  animation-iteration-count: 3; /* Repeating the animation */
+  animation-direction: alternate; /* Making the animation move back and forth */
+}
+
+p span {
+  display: inline-block;
+  animation-duration: 3s;
+  animation-name: grow-shrink;
+}
+
+@keyframes slide-in {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
+
+/* Adding another keyframe */
+@keyframes grow-shrink {
+  25%,
+  75% {
+    scale: 100%;
+  }
+
+  50% {
+    scale: 200%;
+    color: magenta;
+  }
+}

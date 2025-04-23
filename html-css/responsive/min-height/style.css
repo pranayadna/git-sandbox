@@ -1,0 +1,8 @@
+div {
+  background: hotpink;
+  padding: 32px;
+  font-size: 32px;
+  margin: 0 auto;
+  max-width: 600px;
+  min-height: 300px;
+}

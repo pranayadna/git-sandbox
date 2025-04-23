@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center; /* Center using flex instead margin auto */
+}
+
+.card {
+  margin: 48px;
+  /* width: 80%;
+  /* width: 100%; */ /* Better remove percentage at all */
+  background: red;
+  padding: 48px;
+  font-size: 32px;
+  max-width: 500px;
+}
+
+/* Solution: add media queries */
+@media (max-width: 500px) {
+  .card {
+    padding: 16px;
+    margin: 16px;
+  }
+}

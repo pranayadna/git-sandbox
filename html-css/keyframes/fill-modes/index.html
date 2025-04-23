@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fill modes</title>
+</head>
+
+<body>
+    <style>
+        @keyframes fade-out {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0;
+            }
+        }
+
+        .box {
+            animation: fade-out 1000ms;
+            /*
+                Change the "default" value for opacity,
+                so that it reverts to 0 when the
+                animation completes.
+            */
+            opacity: 0;
+        }
+    </style>
+
+    <div class="box">
+        Hello World
+    </div>
+</body>
+
+</html>

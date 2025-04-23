@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+#filter {
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+#header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding: 5px;
+  display: flex;
+  gap: 5px;
+  border: 1px solid pink;
+}
+
+#header .profile {
+  flex-direction: row;
+}
+
+#jobs {
+  padding: 10px;
+  border: 1px solid orange;
+}
+
+#jobs .list {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 1fr;
+}
+
+#main-container {
+  display: flex;
+  gap: 5px;
+  /* padding: 5px; */
+}
+
+#main-content {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 3fr 1fr;
+  padding: 5px;
+  border: 1px solid blue;
+}
+
+#sidebar {
+  padding: 5px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#skills {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card {
+  padding: 5px;
+  border: 1px solid purple;
+}
+
+.profile {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 1px solid green;
+}
+
+.list {
+  padding: 5px;
+  border: 1px solid red;
+}
+
+.title {
+  display: flex;
+  gap: 5px;
+}
+
+ul li {
+  list-style: none;
+}

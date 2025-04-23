@@ -1,0 +1,13 @@
+.box {
+  /*
+    From this:
+    animation: grow-and-shrink 2000ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  ...to this:
+  */
+
+  animation: grow-and-shrink 2000ms ease-in-out infinite alternate;
+  animation-delay: 500ms;
+}
